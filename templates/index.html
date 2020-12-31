@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/vendors/bootstrap/css/bootstrap.min.css">
+    <!-- animation CSS -->
+    <link rel="stylesheet" href="static/vendors/animation/animate.css">
+    <!-- icon CSS -->
+    <link rel="stylesheet" href="static/vendors/elegant-icon/style.css">
+    <!-- animation CSS -->
+    <link rel="stylesheet" href="static/vendors/slick/slick.css">
+    <link rel="stylesheet" href="static/vendors/slick/slick-theme.css">
+    <link rel="stylesheet" href="static/vendors/spilitting/splitting.css">
+    <link rel="stylesheet" href="static/vendors/nice-select/css/nice-select.css">
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <title>Salon On Click</title>
+</head>
+
+<body>
+    <div class="body_wrapper">
+        <div id="preloader">
+            <div class="product_name">Salon <br><br>OnClick</div>
+        </div>
+        <header class="header_area">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                   <!-- <a href="#" class="logo">
+                        <img src="{{url_for('static',filename='images/WhatsApp_Image_2020-12-30_at_9.25.48_PM-removebg-preview.png')}}" alt="" style="width:200px;height:150px;">
+                        <img src="" alt="">
+                    </a>-->
+                   <img src="{{url_for('static',filename='images/WhatsApp_Image_2020-12-30_at_9.25.48_PM-removebg-preview.png')}}" style="width:70px;height:50px">
+                    <div class="burger_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="offcanvas_menu">
+            <ul class="navbar-nav side_menu">
+                <li class="nav-item dropdown submenu active">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home One</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="index-2.html">Home Two</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="index-3.html">Home
+                                Three</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index-4.html">Home Four</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">
+                        Portfolio
+                    </a>
+                </li>
+                <li class="nav-item dropdown submenu">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Blogs
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="blog-details.html" class="nav-link">Blog Details</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="luxy">
+            <!-- main_slider_area -->
+            <section class="main_slider_area" style="background-color:#cc0471;">
+                <div class="container">
+                    <div class="main_slider ">
+                        <div class="slider_item">
+                            <div class="row">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <div class="slider_content">
+                                        <h2 data-splitting>A software for all salon size  <strong>business</strong></h2>
+                                       <!-- <a href="#" class="theme_btn btn_white">See Campaign</a>-->
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="slider_img_info">
+                                        <div class="slider_img">
+                                            <img src="{{url_for('static',filename='images/On Boarding Screen.jpg')}}" alt=""style="border-radius:50px 50px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                        </div>
+                                        <ul class="social_icon">
+                                            <li><a href="#">Facebook</a></li>
+                                            <li><a href="#">Twitter</a></li>
+                                            <li><a href="#">Instagram</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_item">
+                            <div class="row">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <div class="slider_content">
+                                        <h2 data-splitting>The Best Salon and Spa Management <strong>Software</strong></h2>
+                                       <!-- <a href="#" class="theme_btn btn_white">See Campaign</a>-->
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="slider_img_info">
+                                        <div class="slider_img">
+                                            <img src="{{url_for('static',filename='images/d7a11304-5444-4cb8-9972-9941712b139a.jpeg')}}" alt="" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius:50px 50px;">
+                                        </div>
+                                        <ul class="social_icon">
+                                            <li><a href="#">Facebook</a></li>
+                                            <li><a href="#">Twitter</a></li>
+                                            <li><a href="#">Instagram</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_nav">
+                        <a href="#" class="prev"><i class="arrow_left"></i></a>
+                        <a href="#" class="next"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- main_slider_area -->
+            <!-- about_area -->
+            <section class="about_area">
+                <div class="container">
+                    <div class="sec_title text-center wow fadeInUp">
+                        <h2>Trusted by the best in the beauty and  <br>wellness industry.</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about_content text-right wow fadeInUp" data-wow-delay="0.2s">
+                                <p>Since we started, our greatest motivation was and is and will continue to be the
+                                    satisfaction of our customers. Our creations are constantly studying new solutions
+                                    for
+                                    you.
+                                </p>
+                                <a href="#" class="theme_btn">Learn more about the way of working</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="fact_item wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="counter">68</div><i class="arrow_up"></i>
+                                <p>Experts at work</p>
+                            </div>
+                            <div class="fact_item wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="counter">3.7</div>K<i class="arrow_up"></i>
+                                <p>Experts at work</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about_area -->
+            <!-- portfolio_area -->
+           <section class="portfolio_area">
+                <div class="container">
+                    <div class="row portfolio_gallery">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/0863fe6c-11b6-4876-91b0-e5aa8e26e352.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/d7a11304-5444-4cb8-9972-9941712b139a.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/7f194e25-b6f5-4cea-89ae-d7da233a034d.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/5804cae4-5dc7-417c-9a6d-ad97e70f2a48.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/0863fe6c-11b6-4876-91b0-e5aa8e26e352.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/0863fe6c-11b6-4876-91b0-e5aa8e26e352.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/0863fe6c-11b6-4876-91b0-e5aa8e26e352.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/0863fe6c-11b6-4876-91b0-e5aa8e26e352.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio_item">
+                                <div class="overlay_img">
+                                    <img src="{{url_for('static',filename='images/0863fe6c-11b6-4876-91b0-e5aa8e26e352.jpeg')}}" alt="">
+                                    <div class="content">
+                                        <a href="portfolio-details.html">
+                                            <h3>Art event cover<br> design</h3>
+                                        </a>
+                                        <a href="#" class="theme_btn">See project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <a href="#" class="theme_btn">See all projects</a>
+                    </div>
+                </div>
+            </section> -->
+            <!-- portfolio_area -->
+            <!-- solution_area -->
+            <section class="solution_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4" style="background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;border-radius:50px">
+                            <div class="sec_title wow fadeInDown">
+                                <h2>All the great tools you need to run your Salon, Spa or Wellness business!</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Schedule Appointments</h3>
+                                <img src="{{url_for('static',filename='images/Appointments – 1.jpg')}}"style="width:100px;height:100px;">
+                                <p>powerful calendar scheduling features that can handle all your salon appointment bookings.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item wow fadeInDown" data-wow-delay="0.4s">
+                                <h3>Manage your clients</h3>
+                                <img src="{{url_for('static',filename='images/Add New Customer Address.jpg')}}"style="width:100px;height:100px;">
+                                <p>Salon On Click offer a management features with detailed client appointments history, booking preferences, future bookings and contact details.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Sales & Products</h3>
+                                <img src="{{url_for('static',filename='images/Products Page.jpg')}}"style="width:100px;height:100px;">
+                                <p>Takes care of your salon and Spa pos sales transactions, invoicing, receipts, taxes and retail product management..</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Cashier Dashboard</h3>
+                                <img src="{{url_for('static',filename='images/Appointments – 1.jpg')}}"style="width:100px;height:100px;">
+                                <p>powerful calendar scheduling features that can handle all your salon appointment bookings.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Real-Time Reports</h3>
+                                <img src="{{url_for('static',filename='images/Appointments – 1.jpg')}}"style="width:100px;height:100px;">
+                                <p>powerful calendar scheduling features that can handle all your salon appointment bookings.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Stock inventory</h3>
+                                <img src="{{url_for('static',filename='images/Appointments – 1.jpg')}}"style="width:100px;height:100px;">
+                                <p>powerful calendar scheduling features that can handle all your salon appointment bookings.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Payment processing</h3>
+                                <img src="{{url_for('static',filename='images/Appointments – 1.jpg')}}"style="width:100px;height:100px;">
+                                <p>powerful calendar scheduling features that can handle all your salon appointment bookings.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1 col-sm-6">
+                            <div class="solution_item first wow fadeInDown" data-wow-delay="0.2s">
+                                <h3>Staff management</h3>
+                                <img src="{{url_for('static',filename='images/Appointments – 1.jpg')}}"style="width:100px;height:100px;">
+                                <p>powerful calendar scheduling features that can handle all your salon appointment bookings.</p>
+                                <div class="arrow_btn"><a href="#" class="theme_btn">See more<i
+                                            class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- solution_area -->
+            <!-- testimonial area -->
+            <section class="testimonial_area">
+                <div class="container">
+                    <div class="testimonial_slider">
+                        <div class="item row">
+                            <div class="col-lg-7">
+                                <div class="testimonial_content">
+                                    <div class="icon">“</div>
+                                    <h3>Salon On Click <span>System is giving us wonderful results,</span> we will
+                                        continue
+                                        working together.</h3>
+                                    <div class="name">Elina Raiden</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="testimonial_img">
+                                    <img src="{{url_for('static',filename='images/FirstTimeSalonManager_1200x940.jpg')}}" alt="" style="width:459px;height:647">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item row">
+                            <div class="col-lg-7">
+                                <div class="testimonial_content">
+                                    <div class="icon">“</div>
+                                    <h3>Our marketing <span>campaign is giving us wonderful results,</span> we will
+                                        continue
+                                        working together.</h3>
+                                    <div class="name">Elina Raiden</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="testimonial_img">
+                                    <img src="static/img/home-one/testimonial_img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- testimonial area -->
+            <!-- team area -->
+            <section class="team_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="sec_title wow fadeInDown">
+                                <h2>Meet Our New Team Geniuses</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="team_item wow fadeInDown" data-wow-delay="0.2s">
+                                <a href="#" class="img"><img src="static/img/home-one/team1.jpg" alt=""></a>
+                                <h3>Ron Gasul</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="team_item wow fadeInDown" data-wow-delay="0.4s">
+                                <a href="#" class="img"><img src="static/img/home-one/team2.jpg" alt=""></a>
+                                <h3>Idris Olabood</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="team_item wow fadeInDown" data-wow-delay="0.6s">
+                                <a href="#" class="img"><img src="static/img/home-one/team3.jpg" alt=""></a>
+                                <h3>Arian kon</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- team area -->
+            <!-- contact area -->
+            <section class="contact_area black_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="contact_info wow fadeInDown" data-wow-delay="0.2s">
+                                <h2>10 N Florida St, TX 9007, USA.</h2>
+                                <p>Our opening hours are from Mon - Fri 08:00 to 17:00 you can also contact us through
+                                    our
+                                    online channel</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1">
+                            <form action="#" class="row contact_form wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="col-lg-6 form-group">
+                                    <input type="text" class="form-control" placeholder="Your email *">
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <input type="text" class="form-control" placeholder="Phone *">
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>I need to do marketing for my brand</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="submit" class="submit_btn">
+                                        Send Message
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            I agree to receive information
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="border_bottom"></div>
+                </div>
+            </section>
+            <!-- contact area -->
+            <!-- footer area -->
+            <footer class="black_bg">
+                <div class="footer_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-delay="0.2s">
+                                <div class="f_widget about-widget">
+                                    <a href="#" class="f_logo"><img src="static/img/logo-w.png" alt=""></a>
+                                    <p>Our main objective is to help people achieve their business goals and make their
+                                        business an efficient organization from all sides.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-delay="0.3s">
+                                <div class="f_widget social_widget">
+                                    <h3 class="f_title">Follow Us On</h3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="">Instagram</a></li>
+                                        <li><a href="">Twitter</a></li>
+                                        <li><a href="">Linkedin</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 wow fadeInDown" data-wow-delay="0.5s">
+                                <div class="f_widget contact_widget">
+                                    <h3 class="f_title">Contact Us</h3>
+                                    <ul class="list-unstyled">
+                                        <li>Phone: <a href="051958237851">+051 958 237 851</a>
+                                            <a href="tel:051555222000">- +051 555 222 000</a>
+                                        </li>
+                                        <li>Email: <a href="#">support@Salon OnClick-design.com</a></li>
+                                        <li>Address: 10 N Florida St, Texas 9007, USA.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-9">
+                                <p>© 2020 Salon OnClick Creative Agency, designed by <a href="#">TexTheme</a></p>
+                            </div>
+                            <div class="col-md-5 col-sm-3 text-right">
+                                <a href="#" class="go_top">go back up <i class="arrow_up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer area -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="static/js/jquery-3.4.1.min.js"></script>
+    <script src="static/vendors/bootstrap/js/popper.min.js"></script>
+    <script src="static/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vendors/slick/slick.min.js"></script>
+    <script src="static/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="static/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="static/vendors/counterup/jquery.waypoints.min.js"></script>
+    <script src="static/vendors/counterup/jquery.counterup.min.js"></script>
+    <script src="static/vendors/spilitting/splitting.min.js"></script>
+    <script src="static/vendors/wow/wow.min.js"></script>
+    <script src="static/vendors/pace/pace.min.js"></script>
+    <script src="static/js/luxy.js"></script>
+    <script src="static/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
