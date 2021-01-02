@@ -4,6 +4,12 @@ salonOnclick = Flask(__name__)
 @salonOnclick.route('/')
 def home():
     return render_template('index.html')
+@salonOnclick.route('/contactus')
+def contactus():
+    return render_template('contactus.html')
+@salonOnclick.route('/aboutus')
+def aboutus():
+    return render_template('aboutus.html')
 
 
 if '__main__'== (__name__):
