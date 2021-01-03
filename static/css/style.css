@@ -45,7 +45,17 @@ Table of Content:
 }
 
 /*---------------------------------------------------- */
+
+
 /*----------------------------------------------------*/
+
+
+
+
+
+
+
+
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -714,8 +724,11 @@ h6 {
   padding-bottom: 120px;
   padding-top: 120px;
   clip-path: ellipse(66% 57% at 50% 26%);
+  background-color:#cc0471;
 
 }
+
+
 
 .main_slider_area .container {
   position: relative;
@@ -992,12 +1005,33 @@ h6 {
   margin-bottom: 16px;
 }
 
+
+
 .solution_item p {
   padding-right: 10px;
 }
 
 .solution_item.first {
   margin-right: -15px;
+}
+.solution_item img {
+width:300px;
+height:200px;
+box-shadow: 10px 10px grey;
+border-radius:50px;
+
+}
+.solution_item img:hover{
+/*-webkit-transform: scale(1.2);
+ transform: scale(1.2);*/
+ width:400px;
+ height:300px;
+
+}
+.d-flex img{
+border-radius:100px;
+width:100px;
+height:100px;
 }
 
 /*========= solution area css =========*/

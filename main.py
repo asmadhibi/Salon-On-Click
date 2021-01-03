@@ -3,7 +3,7 @@ salonOnclick = Flask(__name__)
 
 @salonOnclick.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('base.html')
 @salonOnclick.route('/contactus')
 def contactus():
     return render_template('contactus.html')
